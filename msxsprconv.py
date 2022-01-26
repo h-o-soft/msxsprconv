@@ -131,7 +131,6 @@ if output_format == "txt":
 
 for y in range(y_count):
     for x in range(x_count):
-        # for idx in range(col_count):
         for i, idx in enumerate(color_index):
             if idx >= 0:
                 if output_format == "txt" and args.comment:
